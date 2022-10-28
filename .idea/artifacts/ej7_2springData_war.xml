@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ej7-2springData:war">
+    <output-path>$PROJECT_DIR$/ej7-2springData/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ej7-2springData</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ej7-2springData-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ej7-2springData:war exploded" />
+    </root>
+  </artifact>
+</component>

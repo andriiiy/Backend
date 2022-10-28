@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ej7-2springData" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ej5-1spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ej5-2spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ej5-3spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ej5-4spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ej6-3spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ej7-1springData/pom.xml" />
+        <option value="$PROJECT_DIR$/ej7-2springData/pom.xml" />
+        <option value="$PROJECT_DIR$/ej3.1-maven-package/pom.xml" />
+        <option value="$PROJECT_DIR$/ej3.2-create-repo-git/pom.xml" />
+        <option value="$PROJECT_DIR$/ej1.1-stream-process-file-final/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK" />
+</project>

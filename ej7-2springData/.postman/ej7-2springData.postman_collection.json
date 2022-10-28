@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "75256993-f48d-4df7-ac42-e98990f45025",
+		"name": "ej7-2springData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23191650"
+	},
+	"item": [
+		{
+			"name": "GET Person",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": \"0002\",\r\n        \"nombre\":\"Pepe\",\r\n        \"apellido\": \"Ap\",\r\n        \"email\": \"peppe@email.com\",\r\n        \"telefono\": 543534534543,\r\n        \"password\": \"11111543543\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/index/name/{name}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"index",
+						"name",
+						"{name}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"id\": \"0002\",\r\n        \"nombre\":\"Pepe\",\r\n        \"apellido\": \"Ap\",\r\n        \"email\": \"peppe@email.com\",\r\n        \"telefono\": 543534534543,\r\n        \"password\": \"11111543543\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/index/name/{name}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"index",
+						"name",
+						"{name}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

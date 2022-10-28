@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ej3.1-maven-package" />
+        <module name="ej5-1spring" />
+        <module name="ej5-4spring" />
+        <module name="ej5-2spring" />
+        <module name="ej6-3spring" />
+        <module name="ej1.1-stream-process-file-final" />
+        <module name="ej7-2springData" />
+        <module name="ej5-3spring" />
+        <module name="ej7-1springData" />
+        <module name="ej3.2-create-repo-git" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ej1.1-stream-process-file-final" target="1.5" />
+      <module name="ej3.1-maven-package" target="17" />
+      <module name="ej3.2-create-repo-git" target="17" />
+      <module name="ej5-1spring" target="17" />
+      <module name="ej5-2spring" target="17" />
+      <module name="ej5-3spring" target="17" />
+      <module name="ej5-4spring" target="17" />
+      <module name="ej6-3spring" target="17" />
+      <module name="ej7-1springData" target="17" />
+      <module name="ej7-2springData" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

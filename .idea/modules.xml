@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Backend.iml" filepath="$PROJECT_DIR$/.idea/Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej1.1-stream-process-file-final/ej1.1-stream-process-file-final.iml" filepath="$PROJECT_DIR$/ej1.1-stream-process-file-final/ej1.1-stream-process-file-final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej3.1-maven-package/ej3.1-maven-package.iml" filepath="$PROJECT_DIR$/ej3.1-maven-package/ej3.1-maven-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej3.2-create-repo-git/ej3.2-create-repo-git.iml" filepath="$PROJECT_DIR$/ej3.2-create-repo-git/ej3.2-create-repo-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5-1spring/ej5-1spring.iml" filepath="$PROJECT_DIR$/ej5-1spring/ej5-1spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5-2spring/ej5-2spring.iml" filepath="$PROJECT_DIR$/ej5-2spring/ej5-2spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5-3spring/ej5-3spring.iml" filepath="$PROJECT_DIR$/ej5-3spring/ej5-3spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej5-4spring/ej5-4spring.iml" filepath="$PROJECT_DIR$/ej5-4spring/ej5-4spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej6-3spring/ej6-3spring.iml" filepath="$PROJECT_DIR$/ej6-3spring/ej6-3spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej7-1springData/ej7-1springData.iml" filepath="$PROJECT_DIR$/ej7-1springData/ej7-1springData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ej7-2springData/ej7-2springData.iml" filepath="$PROJECT_DIR$/ej7-2springData/ej7-2springData.iml" />
+    </modules>
+  </component>
+</project>
