@@ -5,7 +5,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@PropertySource("classpath:application.yml")
+
+@PropertySource("classpath:application.yml")  // A pesar de indicar esta anotación, Spring da prioridad al application.properties y lee los valores de ahí
 @Component
 public class Controller {
 
@@ -17,6 +18,10 @@ public class Controller {
 
     @Value("${new.property:new.property no tiene valor}")
     private String mensaje3;
+
+//  Imprime que no tiene valor puesto que en application.properties no está la propiedad new.property2
+//  @Value("${new.property2:new.property2 no tiene valor}")
+//  private String mensaje3;
 
     @Bean("primerMensaje")
     public String getMensaje1(){
