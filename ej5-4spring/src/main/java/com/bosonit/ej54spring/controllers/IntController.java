@@ -13,7 +13,7 @@ public class IntController {
     @Value("${bd.url1}") String value2;
 
     @GetMapping("/INT")
-    public String ReturnINT(){
+    public String returnINT(){
         return value1 + "\n-\n" + value2;
     }
 

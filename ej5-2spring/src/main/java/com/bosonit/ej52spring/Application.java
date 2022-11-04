@@ -1,6 +1,5 @@
 package com.bosonit.ej52spring;
 
-import com.bosonit.ej52spring.controllers.Controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,19 +12,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application implements CommandLineRunner {
 
 	@Autowired
-	@Qualifier("firstMessage")
-	private String message1;
+	@Qualifier("primerMensaje")
+	private String mensaje1;
 
 	@Autowired
-	@Qualifier("secondMessage")
-	private String message2;
+	@Qualifier("segundoMensaje")
+	private String mensaje2;
 
 	@Autowired
-	@Qualifier("thirdMessage")
-	private String message3;
+	@Qualifier("tercerMensaje")
+	private String mensaje3;
 
 	@Autowired
-	private Controller addMessage;
 	private static Logger log = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
@@ -34,8 +32,8 @@ public class Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		log.info(message1);
-		log.info(message2);
-		log.info(message3);
+		log.info(mensaje1);
+		log.info(mensaje2);
+		log.info(mensaje3);
 	}
 }

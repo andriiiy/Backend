@@ -9,27 +9,28 @@ import org.springframework.stereotype.Component;
 @Component
 public class Controller {
 
-    @Value("${greeting}")
-    private String message1;
+    @Value("${greeting:greeting}")
+    private String mensaje1;
 
-    @Value("${my.number}")
-    private String message2;
+    @Value("${my.number:my.number}")
+    private String mensaje2;
+
     @Value("${new.property:new.property no tiene valor}")
-    private String message3;
+    private String mensaje3;
 
-    @Bean("firstMessage")
-    public String getMessage1(){
-        return message1;
+    @Bean("primerMensaje")
+    public String getMensaje1(){
+        return mensaje1;
     }
 
-    @Bean("secondMessage")
-    public String getMessage2(){
-        return message2;
+    @Bean("segundoMensaje")
+    public String getMensaje2(){
+        return mensaje2;
     }
 
-    @Bean("thirdMessage")
-    public String getMessage3(){
-        return "El valor de new.Property es: " + message3;
+    @Bean("tercerMensaje")
+    public String getMensaje3(){
+        return "El valor de new.Property es: " + mensaje3;
     }
 
 }

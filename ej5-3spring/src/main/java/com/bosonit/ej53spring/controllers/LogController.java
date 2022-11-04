@@ -24,13 +24,15 @@ public class LogController {
     }
 
     @GetMapping("/ERROR")
-    public void getError(){
+    public String getError(){
         log.error("Aquí muestra el error");
+        return "Revisa la consola";
     }
 
     @GetMapping("/warning")
-    public void getWarining(){
+    public String getWarining(){
         log.warn("Aquí muestra el warning");
+        return "Revisa la consola";
     }
 
 }

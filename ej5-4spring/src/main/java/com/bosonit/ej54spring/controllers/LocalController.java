@@ -13,7 +13,7 @@ public class LocalController {
     @Value("${bd.url2}") String value4;
 
     @GetMapping("/local")
-    public String ReturnINT(){
+    public String returnLocal(){
         return value3 + "\n-\n" + value4;
     }
 

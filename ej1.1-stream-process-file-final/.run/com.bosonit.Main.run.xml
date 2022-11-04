@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="com.bosonit.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.bosonit.Main" />
+    <module name="ej1.1-stream-process-file-final" />
+    <option name="PROGRAM_PARAMETERS" value=".\src\main\resources\ejercicio1.txt" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.bosonit.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

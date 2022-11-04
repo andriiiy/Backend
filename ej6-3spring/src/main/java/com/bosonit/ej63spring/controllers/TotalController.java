@@ -19,14 +19,14 @@ public class TotalController {
     @Autowired
     Iservices ex;
 
-    @GetMapping("/greetings")
+    @GetMapping("/greeting")
     public List<HelloWorldObject> getHelloWorld (){
         List<HelloWorldObject> helloSimple = new ArrayList<>();
         helloSimple.add(ex.createObject(helloSimple.size(), "Hello, World!"));
         return helloSimple;
     }
 
-    @GetMapping("/greetings{name}")
+    @GetMapping("/greeting{name}")
     public List<HelloWorldObject> getHelloWorldWithName (@PathVariable("name") String name){
         helloNotSimple.add(ex.createObject(helloNotSimple.size(), "Hello, "+ name));
         return helloNotSimple;

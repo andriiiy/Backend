@@ -23,6 +23,7 @@ public class Main {
         FileProcessor fileProcessor = new FileProcessor();
         List<Person> personList;
 
+        // Pasar argumentos (ruta del archivo ejercicio1.txt) desde configuración
         Path path = Paths.get(args[0]);
 
         try {

@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e864e7c1-22f1-4120-a949-9b8c9729b778" name="Changes" comment="" />
+    <list default="true" id="e864e7c1-22f1-4120-a949-9b8c9729b778" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.run/Main.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej1.1-stream-process-file-final/src/main/java/com/bosonit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej1.1-stream-process-file-final/src/main/java/com/bosonit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej1.1-stream-process-file-final/target/classes/com/bosonit/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ej1.1-stream-process-file-final/target/classes/com/bosonit/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-1spring" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-1spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-2spring/src/main/java/com/bosonit/ej52spring/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-2spring/src/main/java/com/bosonit/ej52spring/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-2spring/src/main/java/com/bosonit/ej52spring/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-2spring/src/main/java/com/bosonit/ej52spring/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-3spring/src/main/java/com/bosonit/ej53spring/controllers/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-3spring/src/main/java/com/bosonit/ej53spring/controllers/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-3spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-3spring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/IntController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/IntController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/LocalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/LocalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/ProController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ej5-4spring/src/main/java/com/bosonit/ej54spring/controllers/ProController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +53,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,6 +71,10 @@
       <workItem from="1661330457940" duration="633000" />
       <workItem from="1661411090475" duration="5000" />
       <workItem from="1666947626321" duration="45000" />
+      <workItem from="1667457422798" duration="54000" />
+      <workItem from="1667457500176" duration="25000" />
+      <workItem from="1667457954304" duration="7000" />
+      <workItem from="1667546481510" duration="99000" />
     </task>
     <servers />
   </component>

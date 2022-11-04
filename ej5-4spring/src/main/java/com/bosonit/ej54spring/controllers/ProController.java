@@ -12,7 +12,7 @@ public class ProController {
     @Value("${bd.url3}") String value6;
 
     @GetMapping("/PRO")
-    public String ReturnINT(){
+    public String returnPRO(){
         return value5 + "\n-\n" + value6;
     }
 
