@@ -1,0 +1,4 @@
+2022-11-07 10:32:54,667 ERROR com.bosonit.ej53spring.controllers.LogController [http-nio-8080-exec-1] Aquí muestra el error
+2022-11-07 10:38:25,247 ERROR com.bosonit.ej53spring.controllers.LogController [http-nio-8080-exec-1] Aquí muestra el error
+2022-11-07 10:39:06,142 ERROR com.bosonit.ej53spring.controllers.LogController [http-nio-8080-exec-1] Aquí muestra el error
+2022-11-07 10:39:37,685 ERROR com.bosonit.ej53spring.controllers.LogController [http-nio-8080-exec-2] Aquí muestra el error
