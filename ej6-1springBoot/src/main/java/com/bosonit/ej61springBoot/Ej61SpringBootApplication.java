@@ -1,4 +1,4 @@
-package com.bosonit.ej5springBoot;
+package com.bosonit.ej61springBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

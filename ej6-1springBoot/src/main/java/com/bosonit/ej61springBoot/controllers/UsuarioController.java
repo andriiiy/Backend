@@ -1,6 +1,6 @@
-package com.bosonit.ej5springBoot.controllers;
+package com.bosonit.ej61springBoot.controllers;
 
-import com.bosonit.ej5springBoot.models.Usuario;
+import com.bosonit.ej61springBoot.models.Usuario;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -21,7 +21,7 @@ public class UsuarioController {
     @PostMapping(value="/useradd")
     public String addUser (@RequestBody Usuario usuario) {
         usuarios.add(usuario);
-        return "Añadido!";
+        return "Se ha añadido el usuario "+ usuario.getName();
     }
 
 }

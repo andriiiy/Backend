@@ -1,4 +1,4 @@
-package com.bosonit.ej5springBoot.models;
+package com.bosonit.ej61springBoot.models;
 
 public class Usuario {
 
