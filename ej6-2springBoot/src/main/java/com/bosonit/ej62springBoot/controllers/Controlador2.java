@@ -13,12 +13,12 @@ public class Controlador2 {
 
     @Autowired
     Controlador1 executable;
-    //http://localhost:8080/controlador2/getPersona
+
     @GetMapping(value="/getPersona")
     public PersonaModel getAge() {
         return executable.returnPeople();
     }
-    //http://localhost:8080/controlador2/getCiudad
+
     @GetMapping("/getCiudad")
     public List<CityModel> getCity(){
         return executable.returnCity();

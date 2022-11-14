@@ -1,8 +1,10 @@
 package com.bosonit.ej62springBoot.models;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
+@Configuration
 public class Persona {
 
     @Bean("bean1")

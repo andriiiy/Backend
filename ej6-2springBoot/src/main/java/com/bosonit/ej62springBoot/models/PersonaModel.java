@@ -2,38 +2,38 @@ package com.bosonit.ej62springBoot.models;
 
 public class PersonaModel {
     
-    private String name;
-    private String city;
-    private int age;
+    private String nombre;
+    private String poblacion;
+    private int edad;
 
-    public String getName() {
-        return name;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public String getCity() {
-        return city;
+    public String getPoblacion() {
+        return poblacion;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setPoblacion(String poblacion) {
+        this.poblacion = poblacion;
     }
 
-    public int getAge() {
-        return age;
+    public int getEdad() {
+        return edad;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
-    public PersonaModel(String name, String city, int age) {
-        this.name = name;
-        this.city = city;
-        this.age = age;
+    public PersonaModel(String nombre, String poblacion, int edad) {
+        this.nombre = nombre;
+        this.poblacion = poblacion;
+        this.edad = edad;
     }
 
     public PersonaModel() {
@@ -43,9 +43,9 @@ public class PersonaModel {
     @Override
     public String toString() {
         return "PersonaModel{" +
-                "name='" + name + '\'' +
-                ", city='" + city + '\'' +
-                ", age=" + age +
+                "nombre='" + nombre + '\'' +
+                ", poblacion='" + poblacion + '\'' +
+                ", edad=" + edad +
                 '}';
     }
 

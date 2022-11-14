@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public interface IserviceAdd {
 
-    PersonaModel addPeople(String name, String city, int Age);
+    PersonaModel addPeople(String nombre, String poblacion, int edad);
 
     PersonaModel getObject();
 }
